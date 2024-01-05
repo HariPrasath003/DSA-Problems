@@ -45,7 +45,6 @@ class GFG {
 
 // } Driver Code Ends
 
-
 class Solution {
     public static ArrayList<Integer> duplicates(int arr[], int n) {
         // code here
@@ -69,7 +68,7 @@ class Solution {
         }
         Collections.sort(ans);
         return ans;
-        
+
         
     }
 }
