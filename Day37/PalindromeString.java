@@ -39,24 +39,19 @@ class GFG {
     }
 }
 // } Driver Code Ends
-
-
 //User function Template for Java
 
 class Solution {
     int isPalindrome(String S) {
         // code here
         S = S.toLowerCase();
-        
         int left = 0, right = S.length() - 1;
         
         while (left < right) {
-
             if (S.charAt(left) != S.charAt(right)) {
 
                 return 0;
             }
-            
             left++;
             right--;
         }

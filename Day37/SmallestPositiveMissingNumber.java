@@ -31,10 +31,7 @@
 //{ Driver Code Starts
 import java.util.*;
 import java.io.*;
-
-
 // } Driver Code Ends
-
 class Solution
 {
     //Function to find the smallest positive number missing from the array.
@@ -48,20 +45,17 @@ class Solution
                 arr[i] = temp;
             }
         }
-        
         for (int i = 0; i < size; i++) {
             if (arr[i] != i + 1) {
                 return i + 1;
             }
         }
-        
         return size + 1;
     }
 }
 
 
 //{ Driver Code Starts.
-
 class Main
 {   
     public static void main (String[] args) throws IOException
@@ -92,6 +86,4 @@ class Main
 		out.close();
     }
 }
-
-
 // } Driver Code Ends
