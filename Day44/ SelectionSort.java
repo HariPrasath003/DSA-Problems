@@ -44,35 +44,24 @@
 
 public class Solution {
     public static void selectionSort(int[] arr) {
+        
         int n = arr.length;
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < n; i++)
+        {
+            int mini = arr[i];
             int minIndex = i;
-            for (int j = i + 1; j < n; j++) {
-                if (arr[j] < arr[minIndex]) {
+
+            for (int j = i; j < n; j++)
+            {
+                if (mini > arr[j])
+                {
+                    mini = arr[j];
                     minIndex = j;
                 }
             }
-            int temp = arr[minIndex];
-            arr[minIndex] = arr[i];
-            arr[i] = temp;
+            int tmp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = tmp;
         }
-    }
-
-    public static void main(String[] args) {
-        int[] arr1 = {8, 6, 2, 5, 1};
-        selectionSort(arr1);
-        System.out.print("Sorted array 1: ");
-        for (int num : arr1) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
-
-        int[] arr2 = {9, 3, 6, 2, 0};
-        selectionSort(arr2);
-        System.out.print("Sorted array 2: ");
-        for (int num : arr2) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
     }
 }

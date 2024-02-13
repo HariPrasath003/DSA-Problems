@@ -33,35 +33,27 @@
 // Time Limit: 1 sec
 
 public class Solution {
-    public static void insertionSort(int[] arr, int size) {
-        if (size <= 1) {
+    public static void insertionSort(int []arr, int n) {
+
+        insertionSortHelper(arr, 0, n);
+    }
+    public static void insertionSortHelper(int[] arr, int i, int n) {
+        if (i == n) {
             return;
         }
-        insertionSort(arr, size - 1);
-        int lastElement = arr[size - 1];
-        int j = size - 2;
-        while (j >= 0 && arr[j] > lastElement) {
-            arr[j + 1] = arr[j];
+
+        int j = i;
+
+        while (j > 0 && arr[j - 1] > arr[j]) {
+
+            swap(arr, j, j - 1);
             j--;
         }
-        arr[j + 1] = lastElement;
+        insertionSortHelper(arr, i + 1, n);
     }
-
-    public static void main(String[] args) {
-        int[] arr1 = {9, 3, 6, 2, 0};
-        insertionSort(arr1, arr1.length);
-        System.out.print("Sorted array 1: ");
-        for (int num : arr1) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
-
-        int[] arr2 = {4, 3, 2, 1};
-        insertionSort(arr2, arr2.length);
-        System.out.print("Sorted array 2: ");
-        for (int num : arr2) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
+    public static void swap(int []arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 }
