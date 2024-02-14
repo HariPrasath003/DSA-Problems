@@ -33,6 +33,7 @@
 // All elements of candidates are distinct.
 // 1 <= target <= 40
 
+import Day45.Solution;
 
 class Solution {
 
