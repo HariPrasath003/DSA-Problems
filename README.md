@@ -29,6 +29,6 @@
 <h2>Contact</h2>
     <p>If you have any questions, suggestions, or concerns, feel free to reach out to me.</p>
 
-<p>Happy coding! 🚀</p>
+<p>Keep coding passionately! 🚀</p>
 </body>
 </html>
