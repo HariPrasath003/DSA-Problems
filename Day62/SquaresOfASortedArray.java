@@ -20,20 +20,30 @@
 // -104 <= nums[i] <= 104
 // nums is sorted in non-decreasing order.
 
-import java.util.Arrays;
-
-public class Solution {
+class Solution {
     public int[] sortedSquares(int[] nums) {
         
-        int n = nums.length;
-        int[] result = new int[n];
-        
-        for (int i = 0; i < n; i++) {
-            result[i] = nums[i] * nums[i];
+        int[] result = new int[nums.length];
+
+        for(int i=0 ; i < nums.length; i++){
+            nums[i] = nums[i]*nums[i];
         }
-        
-        Arrays.sort(result);
-        
+
+        int head= 0;
+        int tail = nums.length -1;
+
+        for(int pos= nums.length -1; pos >= 0; pos--){
+
+            if(nums[head] > nums[tail]){
+                result[pos] = nums[head];
+                head++;
+            }else{
+                result[pos] = nums[tail];
+                tail--;
+            }
+        }
         return result;
     }
 }
+// Time Complexity: O(n)
+// Space Complexity: O(n)
