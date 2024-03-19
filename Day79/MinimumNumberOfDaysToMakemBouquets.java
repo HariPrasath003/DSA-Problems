@@ -87,4 +87,5 @@ class Solution {
         return Days(bloomDay,m,k,max);
     }
 }
-
+// Time Complexity: O(nlogn)
+// Space Complexity: O(1)
