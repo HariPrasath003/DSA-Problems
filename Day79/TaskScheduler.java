@@ -66,3 +66,5 @@ class Solution {
         return idleSlots > 0 ? idleSlots + tasks.length : tasks.length;
     }
 }
+// Time Complexity: O(n)
+// Space Complexity: O(1)
