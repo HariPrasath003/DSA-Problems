@@ -68,7 +68,7 @@ class Solution {
         int ans=-1;
         while(s<=l){
             int mid=(s+l)/2;
-            // System.out.println(mid);
+ 
             if(bloom(arr,m,k,mid)){
                 ans=mid;
                 l=mid-1;
