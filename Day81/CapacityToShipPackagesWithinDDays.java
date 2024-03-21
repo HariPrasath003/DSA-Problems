@@ -85,4 +85,3 @@ public class Solution {
         System.out.println(leastWeightCapacity(weights2, d2)); // Output: 55
     }
 }
-
