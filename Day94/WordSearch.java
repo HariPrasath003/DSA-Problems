@@ -50,7 +50,7 @@ class Solution {
             return false;
 
         char temp = board[i][j];
-        board[i][j] = '*'; // Mark cell as visited
+        board[i][j] = '*'; 
 
         boolean found = searchWord(board, i + 1, j, word, index + 1) ||
                 searchWord(board, i - 1, j, word, index + 1) ||
