@@ -61,3 +61,5 @@ class Solution {
         return found;
     }
 }
+// Time Complexity: O(N * 3^L)
+// Space Complexity: O(L) where L is the length of the word. 
