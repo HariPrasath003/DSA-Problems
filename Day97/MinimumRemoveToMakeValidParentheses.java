@@ -8,7 +8,6 @@
 // It can be written as AB (A concatenated with B), where A and B are valid strings, or
 // It can be written as (A), where A is a valid string.
  
-
 // Example 1:
 
 // Input: s = "lee(t(c)o)de)"
@@ -24,7 +23,6 @@
 // Output: ""
 // Explanation: An empty string is also valid.
  
-
 // Constraints:
 
 // 1 <= s.length <= 105
