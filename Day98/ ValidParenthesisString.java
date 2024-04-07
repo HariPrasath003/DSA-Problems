@@ -29,7 +29,7 @@
 
 public class Solution {
     public boolean checkValidString(String s) {
-        
+
         int leftMin = 0;
         int leftMax = 0;
 
@@ -53,3 +53,4 @@ public class Solution {
         return leftMin == 0;
     }
 }
+// Time Complexity: O(n)
