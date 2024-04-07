@@ -55,3 +55,4 @@ public class Solution {
 }
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+// Runtime: 0 ms, faster than 100.00% of Java online submissions for Valid Parenthesis String.
