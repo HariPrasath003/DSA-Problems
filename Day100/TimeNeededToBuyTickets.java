@@ -52,3 +52,5 @@ class Solution {
 
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+
+// The time complexity of this solution is O(n) where n is the number of people in the line. The space complexity of this solution is O(1) as we are using a constant amount of space.
