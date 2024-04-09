@@ -49,8 +49,3 @@ class Solution {
         return total;
     }
 }
-
-// Time Complexity: O(n)
-// Space Complexity: O(1)
-// The time complexity is O(n) because we iterate through the tickets array of length n. The space complexity is O(1) because we use a constant amount of space.
-
