@@ -49,3 +49,5 @@ class Solution {
         return total;
     }
 }
+
+// Time Complexity: O(n)
