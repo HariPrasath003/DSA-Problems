@@ -72,3 +72,5 @@ class Solution {
     }
 }
 // Time Complexity: O(n)
+// Space Complexity: O(n) 
+// n is the length of the string num.
