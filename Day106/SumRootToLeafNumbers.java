@@ -75,3 +75,4 @@ class Solution {
     }
 }
 // Time complexity : O(n)O(n). We traverse the entire input tree once.
+// Space complexity : O(n)O(n). The extra space is occupied by the recursion stack. The worst case space is O(n)O(n) when the input tree is skewed.
