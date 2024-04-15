@@ -74,3 +74,4 @@ class Solution {
         return leftSum + rightSum;
     }
 }
+// Time complexity : O(n)O(n). We traverse the entire input tree once.
