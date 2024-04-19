@@ -63,3 +63,6 @@ class Solution {
         dfs(grid, i, j - 1); // left
     }
 }
+
+// Time complexity: O(m * n)
+// Space complexity: O(m * n)

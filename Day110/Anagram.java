@@ -93,4 +93,6 @@
             return true;
         }
     }
-    
+
+// Time Complexity: O(|a|+|b|).
+// Space Complexity: O(Number of distinct characters).
