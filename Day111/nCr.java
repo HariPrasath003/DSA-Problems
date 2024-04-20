@@ -61,4 +61,7 @@ class Solution{
         return arr[r];
     }
 }
-   
+
+
+// Time Complexity: O(n*r)
+// Space Complexity: O(r)

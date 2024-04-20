@@ -67,3 +67,7 @@ class Solution {
         return fib[n];
     }
 }
+
+
+// Time Complexity: O(n)
+// Space Complexity: O(n)
