@@ -4,8 +4,6 @@
 
 // Given n, return the value of Tn.
 
- 
-
 // Example 1:
 
 // Input: n = 4
@@ -17,7 +15,6 @@
 
 // Input: n = 25
 // Output: 1389537
- 
 
 // Constraints:
 
