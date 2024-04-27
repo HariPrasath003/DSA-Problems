@@ -70,3 +70,6 @@ class Solution {
         return -1;
     }
 }
+
+// Time complexity: O(log(n)) where n is the length of the array.
+// Space complexity: O(1) where n is the number of elements
