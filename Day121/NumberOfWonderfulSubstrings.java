@@ -6,7 +6,6 @@
 // A substring is a contiguous sequence of characters in a string.
 
  
-
 // Example 1:
 
 // Input: word = "aba"
