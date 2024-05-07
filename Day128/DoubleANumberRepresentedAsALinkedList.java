@@ -4,12 +4,12 @@
 
 // Example 1:
 
-
 // Input: head = [1,8,9]
 // Output: [3,7,8]
 // Explanation: The figure above corresponds to the given linked list which represents the number 189. Hence, the returned linked list represents the number 189 * 2 = 378.
-// Example 2:
 
+
+// Example 2:
 
 // Input: head = [9,9,9]
 // Output: [1,9,9,8]
