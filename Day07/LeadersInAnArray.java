@@ -87,3 +87,6 @@ class Solution{
         return ans;
     }
 }
+
+// Time Complexity: O(N).
+// Auxiliary Space: O(1).
