@@ -62,3 +62,6 @@ class AddTwoNumbers {
         return result.next;
     }
 }
+
+// Time Complexity: O(max(m, n)), where m and n represent the lengths of l1 and l2 respectively.
+// Space Complexity: O(max(m, n)). The length of the new list is at most max(m,n)+1.
