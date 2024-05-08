@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>📚 Java DSA 100DaysofCodes Repository</h1>
+    <h1>📚 Java DSA-Problems Repository</h1>
     <p>Welcome to the Java DSA Codes Repository! Here you will find a collection of Data Structures and Algorithms implemented in Java. Additionally, new problem solutions are uploaded daily to help you sharpen your problem-solving skills.</p>
 
 <h2>Folder Structure</h2>
