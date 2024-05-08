@@ -89,3 +89,6 @@ class GFG {
 
 
 // } Driver Code Ends
+
+// Time Complexity: O(n)
+// Auxiliary Space: O(1)
