@@ -57,7 +57,7 @@ import java.util.Queue;
 
 class Solution {
 
-    private int[] roww = {0, 0, -1, 1};
+    private int[] row = {0, 0, -1, 1};
     private int[] coll = {-1, 1, 0, 0};
 
     private void bfs(List<List<Integer>> grid, int[][] score, int n) {
@@ -80,7 +80,7 @@ class Solution {
             int s = score[x][y];
 
             for (int i = 0; i < 4; i++) {
-                int newX = x + roww[i];
+                int newX = x + row[i];
                 int newY = y + coll[i];
 
                 if (newX >= 0 && newX < n && newY >= 0 && newY < n && score[newX][newY] > 1 + s) {
@@ -114,7 +114,7 @@ class Solution {
             vis[i][j] = true;
 
             for (int k = 0; k < 4; k++) {
-                int newX = i + roww[k];
+                int newX = i + row[k];
                 int newY = j + coll[k];
 
                 if (newX >= 0 && newX < n && newY >= 0 && newY < n && !vis[newX][newY]) {
