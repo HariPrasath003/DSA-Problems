@@ -26,6 +26,7 @@
 // 1 <= n <= 100
 // 0 <= Node.val <= n
 // The sum of all Node.val is n.
+package Day139;
 
 import javax.swing.tree.TreeNode;
 
@@ -45,7 +46,7 @@ import javax.swing.tree.TreeNode;
  * }
  */
 
- 
+
 class Solution {
     
     private int moves = 0;
