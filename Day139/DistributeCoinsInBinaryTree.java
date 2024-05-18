@@ -27,6 +27,8 @@
 // 0 <= Node.val <= n
 // The sum of all Node.val is n.
 
+import javax.swing.tree.TreeNode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
