@@ -65,3 +65,6 @@ class Solution {
         return totalSum;
     }
 }
+
+// Time complexity: O(2^N * N)
+// Space complexity: O(1)
