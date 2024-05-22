@@ -21,6 +21,9 @@
 // 1 <= s.length <= 16
 // s contains only lowercase English letters.
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Solution {
     public List<List<String>> partition(String s) {
 
