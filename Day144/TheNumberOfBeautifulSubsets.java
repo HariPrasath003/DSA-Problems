@@ -1,3 +1,5 @@
+package Day144;
+
 // You are given an array nums of positive integers and a positive integer k.
 
 // A subset of nums is beautiful if it does not contain two integers with an absolute difference equal to k.
@@ -26,6 +28,9 @@
 
 // 1 <= nums.length <= 20
 // 1 <= nums[i], k <= 1000
+
+import java.util.HashMap;
+import java.util.Map;
 
 class Solution {
     public int beautifulSubsets(int[] nums, int k) {
