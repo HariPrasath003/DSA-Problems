@@ -9,7 +9,6 @@ package Day144;
 // A subset of nums is an array that can be obtained by deleting some (possibly none) elements from nums. Two subsets are different if and only if the chosen indices to delete are different.
 
  
-
 // Example 1:
 
 // Input: nums = [2,4,6], k = 2
