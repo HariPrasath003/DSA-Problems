@@ -40,7 +40,7 @@ package Day145;
 // 0 <= score[i] <= 10
 // words[i], letters[i] contains only lower case English letters.
 
-public class Solution {
+public class MaximumScoreWordsFormedByLetters {
     public int maxScoreWords(String[] words, char[] letters, int[] score) {
         int[] count = new int[26];
         int[] lettersCount = new int[26];
