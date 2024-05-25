@@ -2,7 +2,6 @@
 
 // Note that the same word in the dictionary may be reused multiple times in the segmentation.
 
- 
 // Example 1:
 
 // Input: s = "catsanddog", wordDict = ["cat","cats","and","sand","dog"]
@@ -17,7 +16,6 @@
 // Input: s = "catsandog", wordDict = ["cats","dog","sand","and","cat"]
 // Output: []
  
-
 // Constraints:
 
 // 1 <= s.length <= 20
