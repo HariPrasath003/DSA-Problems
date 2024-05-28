@@ -4,8 +4,6 @@
 
 // Return the maximum length of a substring of s that can be changed to be the same as the corresponding substring of t with a cost less than or equal to maxCost. If there is no substring from s that can be changed to its corresponding substring from t, return 0.
 
- 
-
 // Example 1:
 
 // Input: s = "abcd", t = "bcdf", maxCost = 3
