@@ -1,3 +1,5 @@
+package Day151;
+
 // Given an array of integers arr.
 
 // We want to select three indices i, j and k where (0 <= i < j <= k < arr.length).
@@ -54,3 +56,6 @@ class Solution {
         return count;
     }
 }
+
+// Time Complexity: O(n^3)
+// Space Complexity: O(1)
