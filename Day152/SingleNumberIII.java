@@ -2,7 +2,6 @@
 
 // You must write an algorithm that runs in linear runtime complexity and uses only constant extra space.
 
-
 // Example 1:
 
 // Input: nums = [1,2,1,3,2,5]
@@ -50,3 +49,6 @@ class Solution {
         return result;
     }
 }
+
+// Time complexity : O(n^2)
+// Space complexity : O(1)
