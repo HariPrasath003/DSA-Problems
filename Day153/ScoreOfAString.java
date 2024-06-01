@@ -37,3 +37,5 @@ class Solution {
         return sum;
     }
 }
+
+// Time complexity : O(n)
