@@ -1,9 +1,7 @@
 // Write a function that reverses a string. The input string is given as an array of characters s.
-
 // You must do this by modifying the input array in-place with O(1) extra memory.
 
  
-
 // Example 1:
 
 // Input: s = ["h","e","l","l","o"]
@@ -36,3 +34,6 @@ class Solution {
         }
     }
 }
+
+// Time complexity : O(N) to swap N/2 elements.
+// Space complexity : O(1), it's a constant space solution.
