@@ -52,3 +52,6 @@ class Solution {
         return m - j;        
     }
 }
+
+// Time complexity: O(n)
+// Space complexity: O(1)
