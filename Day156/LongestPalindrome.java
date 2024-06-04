@@ -4,8 +4,6 @@
 
 // Letters are case sensitive, for example, "Aa" is not considered a palindrome.
 
- 
-
 // Example 1:
 
 // Input: s = "abccccdd"
@@ -22,6 +20,8 @@
 
 // 1 <= s.length <= 2000
 // s consists of lowercase and/or uppercase English letters only.
+
+import java.util.HashSet;
 
 class Solution {
     public int longestPalindrome(String s) {
