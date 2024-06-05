@@ -60,4 +60,5 @@ class Solution {
     }
 }
 
-// 
+// Time complexity: O(n) where n is the total number of characters in all the words
+// Space complexity: O(1) as the size of the array is fixed to 26
