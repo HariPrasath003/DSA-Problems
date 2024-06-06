@@ -1,10 +1,11 @@
 package Day158;
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 // Alice has some number of cards and she wants to rearrange the cards into groups so that each group is of size groupSize, and consists of groupSize consecutive cards.
-
 // Given an integer array hand where hand[i] is the value written on the ith card and an integer groupSize, return true if she can rearrange the cards, or false otherwise.
-
- 
 
 // Example 1:
 
@@ -16,8 +17,6 @@ package Day158;
 // Input: hand = [1,2,3,4,5], groupSize = 4
 // Output: false
 // Explanation: Alice's hand can not be rearranged into groups of 4.
-
- 
 
 // Constraints:
 
