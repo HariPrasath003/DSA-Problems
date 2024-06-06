@@ -56,3 +56,6 @@ class Solution {
         return true;
     }
 }
+
+// Time complexity: O(nlogn) where n is the number of cards
+// Space complexity: O(n) where n is the number of cards
