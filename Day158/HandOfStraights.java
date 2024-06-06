@@ -24,6 +24,7 @@ import java.util.Map;
 // 0 <= hand[i] <= 109
 // 1 <= groupSize <= hand.length
 
+
 class Solution {
     public boolean isNStraightHand(int[] hand, int groupSize) {
 
