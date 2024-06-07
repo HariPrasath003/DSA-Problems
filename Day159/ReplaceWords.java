@@ -62,3 +62,6 @@ class Solution {
         return sb.toString().trim();
     }
 }
+
+// Time Complexity: O(n*m) where n is the number of words in the sentence and m is the number of words in the dictionary
+// Space Complexity: O(n) where n is the number of words in the sentence
