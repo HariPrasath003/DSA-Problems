@@ -24,6 +24,8 @@
 // Every two consecutive words in sentence will be separated by exactly one space.
 // sentence does not have leading or trailing spaces.
 
+import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
     public String replaceWords(List<String> dictionary, String sentence) {
