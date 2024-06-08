@@ -1,7 +1,5 @@
 // Given an integer array nums and an integer k, return true if nums has a good subarray or false otherwise.
-
 // A good subarray is a subarray where:
-
 // its length is at least two, and
 // the sum of the elements of the subarray is a multiple of k.
 // Note that:
@@ -34,3 +32,32 @@
 // 0 <= sum(nums[i]) <= 231 - 1
 // 1 <= k <= 231 - 1
 
+import java.util.HashMap;
+
+public class Solution {
+    public boolean checkSubarraySum(int[] nums, int k) {
+
+      if (nums.length < 2) {
+            return false;
+        }
+
+        HashMap<Integer, Integer> remainderMap = new HashMap<>();
+        remainderMap.put(0, -1);
+        int sum = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+            int remainder = sum % k;
+
+            if (remainderMap.containsKey(remainder)) {
+                if (i - remainderMap.get(remainder) > 1) {
+                    return true;
+                }
+            } else {
+                remainderMap.put(remainder, i);
+            }
+        }
+
+        return false;
+    }
+}
