@@ -19,6 +19,8 @@
 // -104 <= nums[i] <= 104
 // 2 <= k <= 104
 
+import java.util.HashMap;
+import java.util.Map;
 
 class Solution {
     public int subarraysDivByK(int[] nums, int k) {
