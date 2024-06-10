@@ -51,4 +51,5 @@ class Solution {
     }
 }
 
-// Time complexity:
+// Time complexity: O(nlogn)
+// Space complexity: O(n)
