@@ -33,6 +33,7 @@
 // 1 <= heights.length <= 100
 // 1 <= heights[i] <= 100
 
+import java.util.Arrays;
 
 class Solution {
     public int heightChecker(int[] heights) {
@@ -50,4 +51,4 @@ class Solution {
     }
 }
 
-// 
+// Time complexity:
