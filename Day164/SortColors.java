@@ -16,3 +16,34 @@
 // 1 <= n <= 300
 // nums[i] is either 0, 1, or 2.
 
+
+class Solution {
+    public void sortColors(int[] nums) {
+
+        int first = 0;
+        int mid = 0;
+        int last = nums.length - 1;
+
+        while (mid <= last) {
+            if (nums[mid] == 0) {
+
+                int temp = nums[first];
+                nums[first] = nums[mid];
+                nums[mid] = temp;
+
+                first++;
+                mid++;
+            } 
+            
+            else if (nums[mid] == 1) mid++;
+
+            else {
+                int temp = nums[mid];
+                nums[mid] = nums[last];
+                nums[last] = temp;
+                
+                last--;
+            }
+        }
+    }
+}
