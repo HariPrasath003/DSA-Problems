@@ -59,7 +59,6 @@ class Solution {
             pos[seats[i]]++;
             pos[students[i]]--;
         }
-
         int res = 0;
         int current = 0;
         
