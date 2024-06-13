@@ -1,3 +1,5 @@
+package Day165;
+
 // 2037. Minimum Number of Moves to Seat Everyone : https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/?envType=daily-question&envId=2024-06-13
 
 // There are n seats and n students in a room. You are given an array seats of length n, where seats[i] is the position of the ith seat. You are also given the array students of length n, where students[j] is the position of the jth student.
