@@ -23,6 +23,7 @@
 // 1 <= nums.length <= 105
 // 0 <= nums[i] <= 105
 
+import java.util.Arrays;
 
 class Solution {
     public int minIncrementForUnique(int[] nums) {
