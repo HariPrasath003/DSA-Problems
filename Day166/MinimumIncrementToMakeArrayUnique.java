@@ -42,3 +42,6 @@ class Solution {
         return minIncrement;
     }
 }
+
+// Time complexity: O(nlogn)
+// Space complexity: O(1)
