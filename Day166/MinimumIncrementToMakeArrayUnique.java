@@ -3,7 +3,6 @@
 // The test cases are generated so that the answer fits in a 32-bit integer.
 
  
-
 // Example 1:
 
 // Input: nums = [1,2,2]
