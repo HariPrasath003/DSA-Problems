@@ -9,7 +9,6 @@ package Day167;
 // The answer is guaranteed to fit in a 32-bit signed integer.
 
  
-
 // Example 1:
 
 // Input: k = 2, w = 0, profits = [1,2,3], capital = [0,1,1]
