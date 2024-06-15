@@ -55,7 +55,7 @@ class Solution {
 
         Collections.sort(projects, (a, b) -> a.capital - b.capital);
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>((x, y) -> y - x);
-        
+
         int i = 0;
 
         for (int j = 0; j < k; j++) {
@@ -72,3 +72,6 @@ class Solution {
         return w;
     }
 }
+
+// Time Complexity: O(nlogn + klogn)
+// Space Complexity: O(n)
