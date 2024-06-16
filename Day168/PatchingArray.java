@@ -52,3 +52,6 @@ class Solution {
         return result;
     }
 }
+
+// Time complexity : O(m + logn). Here, m refers to the number of elements in the given nums array. We iterate over the nums array of size m once to update the value of miss. Here, miss can go upto n. Thus, the time complexity for this part is O(m + n). After this, we iterate over the nums array of size m once to update the value of miss. Here, miss can go upto n. Thus, the time complexity for this part is O(m + n). Thus, the overall time complexity is O(m + n + m + n) = O(m + n).
+// Space complexity : O(1). Constant extra space is used.
