@@ -41,4 +41,5 @@ class Solution {
 }
 
 
-// Time Complexity: O(sqrt(c)).
+// Time Complexity: O(sqrt(c))
+// Space Complexity: O(1)
