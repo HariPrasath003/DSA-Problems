@@ -39,3 +39,6 @@ class Solution {
         return false;
     }
 }
+
+
+// Time Complexity: O(sqrt(c)).
