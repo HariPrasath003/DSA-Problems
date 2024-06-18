@@ -30,6 +30,7 @@
 // 1 <= n, m <= 104
 // 1 <= difficulty[i], profit[i], worker[i] <= 105
 
+import java.util.Arrays;
 
 class Solution {
     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
