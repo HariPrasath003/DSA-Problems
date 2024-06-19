@@ -42,3 +42,44 @@
 // 1 <= bloomDay[i] <= 109
 // 1 <= m <= 106
 // 1 <= k <= n
+
+
+class Solution {
+    public int minDays(int[] bloomDay, int m, int k) {
+
+        int start = 1, end = 1;
+
+        for(int day: bloomDay) if(day>end) end = day;
+        int limit = end;
+
+        while(start<end){
+            int mid = start + (end-start)/2;
+            
+            if(isPossible(bloomDay, m, k, mid)) end = mid;
+            else start = mid+1;
+        }
+        if(isPossible(bloomDay, m, k, end)) return end;
+        else return -1;
+    }
+    
+    private boolean isPossible(int[] bloomDay, int m, int k, int day){
+        int i = 0;
+        while(m-->0){
+            int c = 0;
+            if(i==bloomDay.length) return false;
+            while(i<bloomDay.length){
+                if(bloomDay[i]<=day) c++;
+                else c=0;
+                i++;
+                
+                if(c==k) break;
+                else if(i==bloomDay.length) return false;
+            }
+        }
+        return true;
+    }
+}
+
+
+// Time Complexity: O(nlogn)
+// Space Complexity: O(1)
