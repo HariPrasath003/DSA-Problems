@@ -50,7 +50,6 @@ class Solution {
         int start = 1, end = 1;
 
         for(int day: bloomDay) if(day>end) end = day;
-        int limit = end;
 
         while(start<end){
             int mid = start + (end-start)/2;
