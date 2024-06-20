@@ -24,6 +24,7 @@
 // All integers in position are distinct.
 // 2 <= m <= position.length
 
+import java.util.Arrays;
 
 class Solution {
     public int maxDistance(int[] position, int m) {
