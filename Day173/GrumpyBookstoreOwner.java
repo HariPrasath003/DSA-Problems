@@ -17,7 +17,8 @@
 
 // Example 2:
 
-// Input: customers = [1], grumpy = [0], minutes = 1// Output: 1
+// Input: customers = [1], grumpy = [0], minutes = 1
+// Output: 1
  
 
 // Constraints:
