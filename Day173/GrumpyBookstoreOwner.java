@@ -31,4 +31,3 @@
 // 1 <= minutes <= n <= 2 * 104
 // 0 <= customers[i] <= 1000
 // grumpy[i] is either 0 or 1.
-
