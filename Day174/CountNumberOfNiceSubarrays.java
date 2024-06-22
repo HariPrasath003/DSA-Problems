@@ -27,3 +27,26 @@
 // 1 <= nums.length <= 50000
 // 1 <= nums[i] <= 10^5
 // 1 <= k <= nums.length
+
+
+class Solution {
+    public int numberOfSubarrays(int[] nums, int k) {
+
+        int n = nums.length;
+        int sum = 0;
+        int count = 0;
+        int goal = k;
+        
+        int[] map = new int[50001];
+        map[0] = 1;
+
+        for (int i = 0; i < n; i++) {
+          sum += nums[i] % 2;
+          if (sum >= goal)
+            count += map[sum - goal];
+          map[sum]++;
+        }
+        return count;
+    }
+}
+
