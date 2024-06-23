@@ -39,6 +39,7 @@
 // 1 <= nums[i] <= 109
 // 0 <= limit <= 109
 
+import java.util.LinkedList;
 
 class Solution {
     public int longestSubarray(int[] nums, int limit) {
