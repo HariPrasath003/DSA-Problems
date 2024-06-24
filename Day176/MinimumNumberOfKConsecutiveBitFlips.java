@@ -7,7 +7,6 @@
 // A subarray is a contiguous part of an array.
 
  
-
 // Example 1:
 
 // Input: nums = [0,1,0], k = 1
