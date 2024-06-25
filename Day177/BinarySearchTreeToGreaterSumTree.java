@@ -53,7 +53,7 @@ class Solution {
 
             bstToGst(root.right);  
             sum += root.val;  
-            root.val = sum;  
+            root.val = sum; 
 
             bstToGst(root.left);  
         }
