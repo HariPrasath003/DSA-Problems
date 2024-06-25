@@ -61,3 +61,5 @@ class Solution {
 }
 
 
+// Time complexity: O(N), where N is the number of nodes in the tree.
+// Space complexity: O(N).
