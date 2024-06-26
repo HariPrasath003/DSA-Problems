@@ -22,6 +22,8 @@
 // The number of nodes in the tree is in the range [1, 104].
 // 1 <= Node.val <= 105
 
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Definition for a binary tree node.
@@ -90,4 +92,5 @@ class TreeNode {
 }
 
 
-// 
+// Time Complexity: O(N) where N is the number of nodes in the tree.
+// Space Complexity: O(N) where N is the number of nodes in the tree. The space complexity is O(N) because we are storing the inorder traversal of the tree in a list.
