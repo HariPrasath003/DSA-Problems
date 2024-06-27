@@ -24,3 +24,21 @@
 // 1 <= ui, vi <= n
 // ui != vi
 // The given edges represent a valid star graph.
+
+
+class Solution {
+    public int findCenter(int[][] edges) {
+        int n= edges.length+1;
+        int[] nodeToEdge = new int[n+1];
+        for(int[] edge: edges){
+            nodeToEdge[edge[0]]++;
+            nodeToEdge[edge[1]]++;
+        }
+
+        int center;
+        for(center=1; center<=n && nodeToEdge[center]!=n-1;center++){}
+        return center;
+    }
+}
+
+
