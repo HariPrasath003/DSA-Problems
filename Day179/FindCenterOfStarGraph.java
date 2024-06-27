@@ -28,9 +28,12 @@
 
 class Solution {
     public int findCenter(int[][] edges) {
+
         int n= edges.length+1;
         int[] nodeToEdge = new int[n+1];
+
         for(int[] edge: edges){
+            
             nodeToEdge[edge[0]]++;
             nodeToEdge[edge[1]]++;
         }
