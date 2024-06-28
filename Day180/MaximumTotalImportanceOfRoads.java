@@ -72,3 +72,7 @@ class Solution {
         return totalImportance;
     }
 }
+
+
+// Time Complexity: O(NlogN)
+// Space Complexity: O(N)
