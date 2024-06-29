@@ -46,6 +46,8 @@
 // There are no duplicate edges.
 // The graph is directed and acyclic.
 
+import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
     public List<List<Integer>> getAncestors(int n, int[][] edges) {
