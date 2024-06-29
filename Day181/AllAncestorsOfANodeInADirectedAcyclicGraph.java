@@ -59,6 +59,7 @@ class Solution {
             res.add(new ArrayList<>());
         }
 
+        @SuppressWarnings("unchecked")
         ArrayList<Integer>[] graph = new ArrayList[n];
         
         for (int i = 0; i < n; i++) {
