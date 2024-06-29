@@ -46,6 +46,7 @@
 // There are no duplicate edges.
 // The graph is directed and acyclic.
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -79,9 +80,12 @@ class Solution {
     }
 
     private void dfs(ArrayList<Integer>[] graph, int parent, int curr, List<List<Integer>> res, boolean[] visit) {
+
         visit[curr] = true;
+
         for (int dest : graph[curr]) {
             if (!visit[dest]) {
+                
                 res.get(dest).add(parent);
                 dfs(graph, parent, dest, res, visit);
             }
