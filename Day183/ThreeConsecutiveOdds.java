@@ -39,3 +39,6 @@ class Solution {
         return false;
     }
 }
+
+// Time Complexity: O(N)    
+// Space Complexity: O(1)
