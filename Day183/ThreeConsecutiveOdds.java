@@ -1,3 +1,5 @@
+package Day183;
+
 // 1550. Three Consecutive Odds : https://leetcode.com/problems/three-consecutive-odds/description/?envType=daily-question&envId=2024-07-01
 
 // Given an integer array arr, return true if there are three consecutive odd numbers in the array. Otherwise, return false.
