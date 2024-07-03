@@ -63,3 +63,6 @@ class Solution {
     }
 }
 
+
+// Time Complexity: O(n log n) for sorting the array
+// Space Complexity: O(1) as we are not using any extra space.
