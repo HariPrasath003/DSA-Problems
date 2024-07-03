@@ -2,9 +2,7 @@
 
 
 // You are given an integer array nums.
-
 // In one move, you can choose one element of nums and change it to any value.
-
 // Return the minimum difference between the largest and smallest value of nums after performing at most three moves.
 
  
@@ -18,6 +16,7 @@
 // In the second move, change 4 to 3. nums becomes [5,3,3,3].
 // In the third move, change 5 to 3. nums becomes [3,3,3,3].
 // After performing 3 moves, the difference between the minimum and maximum is 3 - 3 = 0.
+
 // Example 2:
 
 // Input: nums = [1,5,0,10,14]
@@ -28,6 +27,7 @@
 // In the third move, change 14 to 1. nums becomes [1,0,0,0,1].
 // After performing 3 moves, the difference between the minimum and maximum is 1 - 0 = 1.
 // It can be shown that there is no way to make the difference 0 in 3 moves.
+
 // Example 3:
 
 // Input: nums = [3,100,20]
@@ -43,3 +43,5 @@
 
 // 1 <= nums.length <= 105
 // -109 <= nums[i] <= 109
+
+
