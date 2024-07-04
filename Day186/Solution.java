@@ -37,6 +37,8 @@
 // The beginning and end of the linked list have Node.val == 0.
 
 
+import java.lang.classfile.components.ClassPrinter.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
