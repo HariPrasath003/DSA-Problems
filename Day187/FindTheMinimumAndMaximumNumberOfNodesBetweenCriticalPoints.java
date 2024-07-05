@@ -91,3 +91,7 @@ class Solution {
         return new int[]{minDistance, maxDistance};
     }
 }
+
+
+// Time Complexity: O(N)
+// Space Complexity: O(N)
