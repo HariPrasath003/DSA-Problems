@@ -45,6 +45,9 @@
 // The number of nodes in the list is in the range [2, 105].
 // 1 <= Node.val <= 105
 
+import java.lang.classfile.components.ClassPrinter.ListNode;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Definition for singly-linked list.
