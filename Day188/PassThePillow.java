@@ -25,3 +25,17 @@
 
 // 2 <= n <= 1000
 // 1 <= time <= 1000
+
+
+class Solution {
+    public int passThePillow(int n, int time) {
+
+        int div = n - 1;
+        int afterDividing = time / div;     
+        int offset = div * afterDividing;
+        
+        if(afterDividing % 2 == 0) return 1 + (time - offset);
+        else return n - (time - offset);
+       
+    }
+}
