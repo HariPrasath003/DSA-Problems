@@ -41,3 +41,7 @@ class Solution {
         return totalBottles;
     }
 }
+
+
+// Time complexity : O(log(numBottles)).
+// Space complexity : O(1).
