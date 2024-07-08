@@ -29,6 +29,7 @@
 // 7) Friend 1 leaves the circle. Next start is friend 3.
 // 8) Count 2 friends clockwise, which are friends 3 and 5.
 // 9) Friend 5 leaves the circle. Only friend 3 is left, so they are the winner.
+
 // Example 2:
 
 // Input: n = 6, k = 5
@@ -39,3 +40,17 @@
 // Constraints:
 
 // 1 <= k <= n <= 500
+
+
+class Solution {
+    public int findTheWinner(int n, int k) {
+        
+        int winner=0;
+
+        for (int i = 1; i <= n; i++) {
+            winner = (winner + k) % i;
+        }
+        
+        return winner + 1;
+    }
+}
