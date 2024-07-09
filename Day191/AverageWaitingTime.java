@@ -60,3 +60,7 @@ class Solution {
         return time_waiting / n;
     }
 }
+
+
+// Time Complexity : O(n)
+// Space Complexity : O(n)
