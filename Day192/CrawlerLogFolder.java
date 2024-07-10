@@ -58,3 +58,7 @@ class Solution {
         return paths_stack.size();
     }
 }
+
+
+// Time Complexity : O(n^2)
+// Space Complexity : O( n^2 )
