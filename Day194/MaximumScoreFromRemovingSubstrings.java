@@ -1,5 +1,7 @@
 package Day194;
 
+import java.util.Stack;
+
 // 1717. Maximum Score From Removing Substrings : https://leetcode.com/problems/maximum-score-from-removing-substrings/description/?envType=daily-question&envId=2024-07-12
 
 
@@ -12,7 +14,6 @@ package Day194;
 // Return the maximum points you can gain after applying the above operations on s.
 
  
-
 // Example 1:
 
 // Input: s = "cdbcbbaaabab", x = 4, y = 5
@@ -23,6 +24,8 @@ package Day194;
 // - Remove the "ba" underlined in "cdbcbbaa". Now, s = "cdbcba" and 5 points are added to the score.
 // - Remove the "ba" underlined in "cdbcba". Now, s = "cdbc" and 5 points are added to the score.
 // Total score = 5 + 4 + 5 + 5 = 19.
+
+
 // Example 2:
 
 // Input: s = "aabbaaxybbaabb", x = 5, y = 4
