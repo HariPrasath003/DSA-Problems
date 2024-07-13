@@ -40,7 +40,10 @@
 // directions[i] == 'L' or directions[i] == 'R'
 // All values in positions are distinct
 
-
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Stack;
 
 class Solution {
 
