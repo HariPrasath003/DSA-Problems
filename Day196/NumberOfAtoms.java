@@ -38,6 +38,13 @@
 // formula consists of English letters, digits, '(', and ')'.
 // formula is always valid.
 
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 class Solution {
     public String countOfAtoms(String formula) {
