@@ -25,6 +25,12 @@
 // to_delete.length <= 1000
 // to_delete contains distinct values between 1 and 1000.
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * Definition for a binary tree node.
