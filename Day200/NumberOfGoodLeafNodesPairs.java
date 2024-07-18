@@ -84,3 +84,6 @@ class Solution {
         findLeaves(node.right, tmp, leaves, map);
     }
 }
+
+// Time Complexity: O(N^2)
+// Space Complexity: O(N^2)
